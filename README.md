@@ -4,6 +4,6 @@ A playground for completing HackerRank challenges in .NET. Working within the co
 
 ## How?
 
-* The Submission Compiler app is extremely simple, it just looks up two levels and finds all files that match the argument (for me, '*.cs' or '*.fs'), does some super simple classification of using statements and code lines, then outputs them in to the current folder as Submission.txt.
+* The Submission Compiler app is extremely simple, it just looks up two levels and finds all files that match the argument (for me, '\*.cs' or '\*.fs'), does some super simple classification of using statements and code lines, then outputs them in to the current folder as Submission.txt.
 * The playground console app references the Submission Compiler to pull the .exe file during the build process.
 * A post-build event invokes the SubmissionCompiler.exe and dumps bin/Debug/Submission.txt file.
